@@ -18,9 +18,9 @@ const HeroContent = () => {
     <motion.div
       initial={false}
       animate="visible"
-      className="z-[20] mt-20 flex w-full flex-col items-start justify-center gap-8 px-4 pb-12 pt-2 sm:mt-24 sm:gap-10 sm:px-6 md:mt-28 md:px-10 md:pb-16 lg:mt-36 lg:flex-row lg:items-center lg:gap-10 lg:px-20 lg:pb-8"
+      className="z-[20] mt-20 flex w-full flex-col items-start justify-center gap-8 px-4 pb-12 pt-2 sm:mt-24 sm:gap-10 sm:px-6 md:mt-28 md:px-10 md:pb-16 lg:mt-36 lg:flex-row lg:items-center lg:gap-6 lg:px-24 lg:pb-8"
     >
-      <div className="mx-auto flex h-full w-full max-w-[640px] flex-col justify-center gap-4 text-start sm:gap-5 lg:mx-0">
+      <div className="mx-auto flex h-full w-full max-w-[640px] flex-col justify-center gap-4 text-start sm:gap-5 lg:mx-0 lg:-translate-x-2">
         <motion.div
           variants={slideInFromTop}
           className="Welcome-box inline-flex items-center border border-[#7042f88b] px-3 py-2 opacity-[0.9]"
@@ -74,14 +74,14 @@ const HeroContent = () => {
 
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="hidden h-full w-full items-center justify-center md:flex md:justify-end"
+        className="hidden h-full w-full items-center justify-center md:flex md:justify-center lg:justify-end"
       >
         <Image
           src="/mainIconsdark.svg"
           alt="work icons"
           height={650}
           width={650}
-          className="h-auto w-[260px] sm:w-[340px] md:w-[420px] lg:w-[650px] md:translate-x-2 lg:translate-x-6"
+          className="h-auto w-[260px] sm:w-[340px] md:w-[420px] lg:w-[650px] md:translate-x-0 lg:-translate-x-4"
         />
       </motion.div>
 
