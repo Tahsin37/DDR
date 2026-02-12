@@ -16,7 +16,7 @@ const HeroContent = () => {
 
   return (
     <motion.div
-      initial="hidden"
+      initial={false}
       animate="visible"
       className="z-[20] mt-20 flex w-full flex-col items-start justify-center gap-8 px-4 pb-12 pt-2 sm:mt-24 sm:gap-10 sm:px-6 md:mt-28 md:px-10 md:pb-16 lg:mt-36 lg:flex-row lg:items-center lg:gap-0 lg:px-20 lg:pb-8"
     >

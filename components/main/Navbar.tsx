@@ -32,9 +32,9 @@ const Navbar = () => {
               className="h-auto w-[52px] cursor-pointer sm:w-[60px] md:w-[70px] hover:animate-slowspin"
             />
 
-            <span className="ml-[10px] hidden font-bold text-gray-300 sm:block">
-              Zenith Chowdhury
-            </span>
+              <span className="ml-[10px] hidden font-bold text-gray-300 sm:block">
+                Zenith Chowdhury
+              </span>
           </a>
 
           <div className="hidden h-full w-full max-w-[500px] items-center justify-center lg:flex">
