@@ -34,8 +34,8 @@ const Footer: React.FC<Props> = ({ links }) => {
   return (
     <div className="relative z-30 h-full w-full bg-transparent px-6 py-10 text-gray-200 shadow-lg sm:px-10 md:px-14">
       <div className="mx-auto flex w-full flex-col items-center justify-center">
-        <div className="flex w-full flex-wrap items-start justify-evenly gap-x-10 gap-y-8 text-center lg:text-left">
-          <div className="min-w-[220px] flex h-auto flex-col items-center justify-start lg:items-start">
+        <div className="grid w-full max-w-5xl grid-cols-1 place-items-center gap-8 text-center md:grid-cols-3">
+          <div className="flex h-auto w-full max-w-[220px] flex-col items-center justify-start">
             <div className="text-[18px] font-bold">Community</div>
             <p className="my-[15px] flex flex-row items-center">
               <button
@@ -61,7 +61,7 @@ const Footer: React.FC<Props> = ({ links }) => {
             </p>
           </div>
 
-          <div className="min-w-[220px] flex h-auto flex-col items-center justify-start lg:items-start">
+          <div className="flex h-auto w-full max-w-[220px] flex-col items-center justify-start">
             <div className="text-[18px] font-bold">Social Media</div>
             <p className="my-[15px] flex flex-row items-center">
               <button
@@ -87,7 +87,7 @@ const Footer: React.FC<Props> = ({ links }) => {
             </p>
           </div>
 
-          <div className="min-w-[220px] flex h-auto flex-col items-center justify-start lg:items-start">
+          <div className="flex h-auto w-full max-w-[220px] flex-col items-center justify-start">
             <div className="text-[18px] font-bold">About</div>
             <p className="my-[15px] flex flex-row items-center">
               <a
@@ -107,7 +107,7 @@ const Footer: React.FC<Props> = ({ links }) => {
           </div>
         </div>
 
-        <div className="mt-8 text-center text-[16px]">
+        <div className="mt-8 w-full text-center text-[16px]">
           &copy; Zenith Chowdhury 2026 | All rights reserved.
         </div>
       </div>
