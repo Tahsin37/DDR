@@ -34,8 +34,8 @@ const Footer: React.FC<Props> = ({ links }) => {
   return (
     <div className="relative z-30 h-full w-full bg-transparent px-6 py-10 text-gray-200 shadow-lg sm:px-10 md:px-14">
       <div className="mx-auto flex w-full flex-col items-center justify-center">
-        <div className="grid w-full max-w-6xl grid-cols-1 place-items-center gap-y-8 text-center md:grid-cols-3 md:gap-x-20 lg:gap-x-28">
-          <div className="flex h-auto w-full max-w-[220px] flex-col items-center justify-start">
+        <div className="grid w-full max-w-[1500px] grid-cols-1 gap-y-8 text-center md:grid-cols-3 md:items-start md:justify-items-center md:gap-x-56 md:text-left lg:gap-x-80">
+          <div className="flex h-auto w-full max-w-[240px] flex-col items-center justify-start text-center md:items-start md:text-left">
             <div className="text-[18px] font-bold">Community</div>
             <p className="my-[15px] flex flex-row items-center">
               <button
@@ -61,7 +61,7 @@ const Footer: React.FC<Props> = ({ links }) => {
             </p>
           </div>
 
-          <div className="flex h-auto w-full max-w-[220px] flex-col items-center justify-start">
+          <div className="flex h-auto w-full max-w-[240px] flex-col items-center justify-start text-center md:items-start md:text-left">
             <div className="text-[18px] font-bold">Social Media</div>
             <p className="my-[15px] flex flex-row items-center">
               <button
@@ -87,7 +87,7 @@ const Footer: React.FC<Props> = ({ links }) => {
             </p>
           </div>
 
-          <div className="flex h-auto w-full max-w-[220px] flex-col items-center justify-start">
+          <div className="flex h-auto w-full max-w-[240px] flex-col items-center justify-start text-center md:items-start md:text-left">
             <div className="text-[18px] font-bold">About</div>
             <p className="my-[15px] flex flex-row items-center">
               <a
@@ -107,7 +107,7 @@ const Footer: React.FC<Props> = ({ links }) => {
           </div>
         </div>
 
-        <div className="mt-8 w-full text-center text-[16px]">
+        <div className="mt-6 w-full text-center text-[16px]">
           &copy; Zenith Chowdhury 2026 | All rights reserved.
         </div>
       </div>
