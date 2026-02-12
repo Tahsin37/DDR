@@ -29,15 +29,15 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-        {
+    {
       skill_name: "Java",
-      Image: "/java.png",
+      Image: "/Java.png",
       width: 100,
       height: 100,
     },
         {
       skill_name: "c",
-      Image: "/c.png",
+      Image: "/C.png",
       width: 80,
       height: 80,
     },
@@ -79,13 +79,13 @@ export const Skill_data = [
     },
     {
       skill_name: "Python",
-      Image: "/python.png",
+      Image: "/Python.png",
       width: 80,
       height: 80,
     },
     {
       skill_name: "Android",
-      Image: "/android.png",
+      Image: "/Android.png",
       width: 103,
       height: 103,
     },
@@ -131,7 +131,7 @@ export const Skill_data = [
     },
     {
       skill_name: "After Effects",
-      Image: "/after.png",
+      Image: "/After.png",
       width: 70,
       height: 70,
     },
@@ -212,7 +212,7 @@ export const Skill_data = [
     },
     {
       skill_name: "stripe",
-      Image: "SS.webp",
+      Image: "/SS.webp",
       width: 70,
       height: 70,
     },
