@@ -34,7 +34,7 @@ const Footer: React.FC<Props> = ({ links }) => {
   return (
     <div className="relative z-30 h-full w-full bg-transparent px-6 py-10 text-gray-200 shadow-lg sm:px-10 md:px-14">
       <div className="mx-auto flex w-full flex-col items-center justify-center">
-        <div className="grid w-full max-w-6xl grid-cols-1 place-items-center gap-y-8 text-center md:grid-cols-3 md:gap-x-16 lg:gap-x-24">
+        <div className="grid w-full max-w-6xl grid-cols-1 place-items-center gap-y-8 text-center md:grid-cols-3 md:gap-x-20 lg:gap-x-28">
           <div className="flex h-auto w-full max-w-[220px] flex-col items-center justify-start">
             <div className="text-[18px] font-bold">Community</div>
             <p className="my-[15px] flex flex-row items-center">
